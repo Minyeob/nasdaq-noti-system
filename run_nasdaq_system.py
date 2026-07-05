@@ -142,7 +142,7 @@ if __name__ == '__main__':
         "🛰️ <b>기준 지수 (QQQ)</b>",
         f"• 현재가: <b>${qqq_data['current']}</b> ({qqq_data['percent']}%)",
         f"• 52주 고점 대비 (MDD): <b>{qqq_data['mdd']}%</b>\n",
-        "========================="
+        "========================"
     ]
     
     active_signals_count = 0
@@ -175,7 +175,7 @@ if __name__ == '__main__':
         telegram_lines.append("\n☕ <b>현재는 매수/매도 액션 타점이 아닙니다.</b>")
         telegram_lines.append("└ 평온하게 관망(Holding) 유지하세요.")
         
-    telegram_lines.append("\n=========================")
+    telegram_lines.append("\n========================")
     telegram_lines.append(f"\n🌐 <b>[실시간 웹 대시보드 열기]</b>")
     telegram_lines.append(f"└ <a href='{DASHBOARD_URL}'>웹사이트 바로가기</a>")
     

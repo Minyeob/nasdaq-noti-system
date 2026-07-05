@@ -6,8 +6,8 @@ import urllib3
 import json
 
 # --- [1. 텔레그램 설정] ---
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8556096282:AAGjfQ-IfwmvGfN_b0p9cet89W2bZMKLS4Q")
-CHAT_ID = os.environ.get("CHAT_ID", "8659694273")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+CHAT_ID = os.environ.get("CHAT_ID")
 
 GITHUB_USERNAME = "Minyeob"  # ⚠️ 본인의 실제 깃허브 아이디로 수정 필수!
 REPO_NAME = "nasdaq-noti-system"
